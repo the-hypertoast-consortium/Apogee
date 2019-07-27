@@ -49,7 +49,7 @@ respective onboard computer systems. Each ship features external components such
 as engines, weapons, sensors, radio, radar, and reaction control systems. These
 can be swapped out and upgraded by the player to improve that ship's
 capabilities. Components are what the computer interfaces with to control the
-ship. Both types of ships use their computer systems to facilitate fly-by-wire
+ship. Both types of ships use their computer systems to facilitate [fly by wire](https://en.wikipedia.org/wiki/Fly-by-wire) 
 capabilities. Pilot's control instruments such as the throttle, and flightsick
 have their statuses periodically read by the computer. These statuses are then
 translated into the correct thruster movements needed to maneuver the ship.
