@@ -1,16 +1,16 @@
-# Apogee
+# Project Apogee
 
 ## Description
 
 Project Apogee is a multiplayer procedural space sandbox game with a focus on
-complex interconnected simulation systems. At the core of the experience is an
-emulated, player programmable, computer system based on a real historical
-architecture. These computers drive the majority of the in-game systems and
+complex interconnected simulation systems. At the core of the experience are
+simulated, player programmable, computer systems based on real historical
+architectures. These computers drive the majority of the in-game systems and
 award a huge amount of creative freedom to players by letting them program how
 various aspects of their ships and other in-game equipment work. Ships are both
-customizable and upgradeable and will be flown utilizing physics based orbital
-mechanics. Players can engage in mining, scavenging, trading, crafting, combat,
-and many other dedicated roles.
+customizable and upgradeable and will operate under newtonian physics models.
+Players can engage in mining, scavenging, trading, crafting, combat, and many
+other dedicated roles.
 
 ## Computers
 
@@ -40,3 +40,32 @@ of power to operate. Unfortunately, this relegates the system to
 non-computationally-intensive tasks such as controlling the player's spacesuit.
 As such, it can most commonly be found in small, man-portable, pieces of
 equipment.
+
+## Ships
+
+There are two main types of ships in Project Apogee: large and small. All ships
+obey a realistic newtonian physics model and are entirely controlled by their
+respective onboard computer systems. Each ship features external components such
+as engines, weapons, sensors, radio, radar, and reaction control systems. These
+can be swapped out and upgraded by the player to improve that ship's
+capabilities. Components are what the computer interfaces with to control the
+ship. Both types of ships use their computer systems to facilitate fly-by-wire
+capabilities. Pilot's control instruments such as the throttle, and flightsick
+have their statuses periodically read by the computer. These statuses are then
+translated into the correct thruster movements needed to maneuver the ship.
+Due to the highly programmable nature of these computer systems, it is entirely
+possible for players to create fully autonomous ships.
+
+Large ships offer a high degree of customization to the player. The entire
+interior of the ship can be reconfigured to suit the player's needs. Players
+can optimize the internal layout of their ship to increase the performance of
+certain tasks and external components. These components are controlled by the
+ship's on-board PDP-11 computer system. Large ships are intended to act as bases
+of operation for players and are not capable of landing on planets. Only large
+ships are equipped with faster than faster than light capabilities.
+
+Small ships are geared towards specific tasks such as mining, fighting, or
+landing on planets. These ships do not have a walkable interior. Instead they
+have small cockpits that can fit one or two players. The ship's components are
+similarly controlled by the small ship's onboard Data General Nova 1200
+computer system.
